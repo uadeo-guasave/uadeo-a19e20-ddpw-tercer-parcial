@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Javascript</title>
-</head>
-<body>
-    <h1>Inicio de sesión</h1>
-</body>
+    <link rel="stylesheet" href="css/bulma.css" />
+  </head>
+  <body>
+    <section class="hero is-fullheight is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-4">
+              <div class="box">
+                <form action="#" method="post">
+                  <div class="field">
+                    <label for="usuario" class="label">Usuario:</label>
+                    <div class="control">
+                      <input type="text" name="usuario" id="usuario" class="input">
+                    </div>
+                    <p class="help">Escribe el nombre de usuario.</p>
+                  </div>
+                  <div class="field">
+                    <label for="contrasena" class="label">Contraseña:</label>
+                    <div class="control">
+                      <input type="password" name="contrasena" id="contrasena" class="input">
+                    </div>
+                    <p class="help">Escribe la contraseña.</p>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox is-size-7">
+                        <input type="checkbox" name="recordar" id="recordar">
+                        Mantener la sesión inciada.
+                      </label>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <button class="button is-info is-fullwidth">
+                        Iniciar sesión
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
