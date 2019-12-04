@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Javascript</title>
     <link rel="stylesheet" href="css/bulma.css" />
+    <link rel="stylesheet" href="css/font-awesome.css">
   </head>
   <body>
     <section class="hero is-fullheight is-primary">
@@ -14,20 +15,18 @@
           <div class="columns is-centered">
             <div class="column is-4">
               <div class="box">
-                <form action="#" method="post">
+                <form action="." method="post">
                   <div class="field">
-                    <label for="usuario" class="label">Usuario:</label>
+                    <label for="usuario" class="label"><i class="fa fa-user"></i> Usuario:</label>
                     <div class="control">
-                      <input type="text" name="usuario" id="usuario" class="input">
+                      <input type="text" name="usuario" id="usuario" class="input" placeholder="Escribe el nombre de usuario.">
                     </div>
-                    <p class="help">Escribe el nombre de usuario.</p>
                   </div>
                   <div class="field">
-                    <label for="contrasena" class="label">Contraseña:</label>
+                    <label for="contrasena" class="label"><i class="fa fa-lock"></i> Contraseña:</label>
                     <div class="control">
-                      <input type="password" name="contrasena" id="contrasena" class="input">
+                      <input type="password" name="contrasena" id="contrasena" class="input" placeholder="Escribe la contraseña.">
                     </div>
-                    <p class="help">Escribe la contraseña.</p>
                   </div>
                   <div class="field">
                     <div class="control">
@@ -40,7 +39,8 @@
                   <div class="field">
                     <div class="control">
                       <button class="button is-info is-fullwidth">
-                        Iniciar sesión
+                        <i class="fa fa-sign-in"></i>
+                        &nbsp;Iniciar sesión
                       </button>
                     </div>
                   </div>
